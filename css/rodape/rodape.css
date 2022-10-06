@@ -1,0 +1,61 @@
+.rodape{
+    background-color: #212180;
+    height: 8.7vh;   
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4%;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.link__nome{
+    font-weight: bold;
+    color: #fdfdfd;
+}
+
+.logos{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link__logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 60%;
+    transition: .5s all;
+}
+
+.logo:hover{
+    height: 75%;
+}
+
+@media screen and (max-width: 700px){
+    
+
+    
+
+    .rodape{
+        height: 7vh;
+    }
+
+    .logos{
+        width: 30%;
+    }
+
+    .container{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}

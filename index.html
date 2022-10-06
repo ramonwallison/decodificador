@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/conteudo/conteudo_entrada.css">
+    <link rel="stylesheet" href="css/conteudo/conteudo_interativo.css">
+    <link rel="stylesheet" href="css/conteudo/conteudo_resposta.css">
+    <link rel="stylesheet" href="css/rodape/rodape.css">
+    
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1 class="cabeçalho__titulo">Decodificador</h1>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo__entrada">
+            <div class="conteudo__entrada___texto">   
+                <textarea placeholder="Digite um texto..." name="texto" class="texto__entrada" cols="30" rows="10" ></textarea>
+            </div>
+
+            <div class="conteudo__info">
+                <div class="conteudo__aviso">
+                    <img class="aviso__icone" src="imagens/sinal-de-aviso.png" alt="">
+                    <p class="aviso__letras">Apenas letras minúsculas e sem acento</p>
+                
+                </div>
+                <div class="conteudo__botoes">
+                    <button class="botao botao__criptografar" onclick="criptografar()"> Criptografar </button>
+                    <button class="botao botao__descriptografar" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="conteudo__resposta">
+            <div class="conteudo__texto___resposta">
+                <div class="area__img">
+                    <img class="img__lupa" src="imagens/High quality products 1 1.svg" alt="">
+                </div>
+                <div class="resposta__info">
+                    <p class="texto__nada">Nenhuma mensagem encontrada</p>
+                    <p class="texto__digite">Digite um texto que você gostaria de Criptografar ou Descriptografar</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p class="rodape__texto">Criado por <strong><a class="link__nome" href="https://github.com/ramonwallison" target="_blank">Ramon Wallison</a></strong></p>
+            <div class="logos">
+                <a class="link__logo" href="https://github.com/ramonwallison" target="_blank"><img class="logo" src="imagens/git.png" alt="Logo github"></a>
+                <a class="link__logo" href="https://www.instagram.com/ramon_wallison/" target="_blank"><img class="logo" src="imagens/logo_instagram.png" alt="Logo instagram"></a>
+                <a class="link__logo" href="https://www.facebook.com/profile.php?id=100012533506061" target="_blank"><img class="logo" src="imagens/facebook-branco.png" alt="Logo facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

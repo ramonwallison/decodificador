@@ -1,0 +1,25 @@
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin-bottom: 0;
+    background-color: #2b2b8a;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.678);
+}
+
+.cabeçalho__titulo{
+    font-size: 2.5em;
+    font-family: 'Silkscreen', cursive;
+    color: #f1614e;
+}
+
+@media screen and (max-width: 700px){
+    .cabeçalho{
+        height: 7vh;
+    }
+
+    .cabeçalho__titulo{
+        font-size: 1.7em;
+    }
+}
